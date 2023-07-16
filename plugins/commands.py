@@ -145,7 +145,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/crazybotz')
+                          InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ ❤️‍🔥", url='https://t.me/crazybotz')
                          ]
                         ]
                     )
@@ -161,7 +161,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/crazybotz')
+                          InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ ❤️‍🔥", url='https://t.me/crazybotz')
                          ]
                         ]
                     )
@@ -322,7 +322,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/crazybotz')
+                      InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ ❤️‍🔥", url='https://t.me/crazybotz')
                      ]
                     ]
                 )
@@ -377,7 +377,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/crazybotz')
+                      InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ ❤️‍🔥", url='https://t.me/crazybotz')
                      ]
                     ]
                 )
@@ -431,7 +431,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/crazybotz')
+              InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ ❤️‍🔥", url='https://t.me/crazybotz')
              ]
             ]
         )

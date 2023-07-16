@@ -13,8 +13,8 @@ class script(object):
 
 ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴩ ꜰᴏʀ ᴍy ᴄᴏᴍᴍᴀɴᴅꜱ.</b>"""
 
-    ABOUT_TXT = """<b>
-‣ ᴍʏ ɴᴀᴍᴇ : {}
+    ABOUT_TXT = """
+<b>‣ ᴍʏ ɴᴀᴍᴇ : {}
 ‣ ᴄʀᴇᴀᴛᴏʀ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ​</a>
 ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/heartlesssn'>ᴄʀᴀᴢʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​</a>
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>

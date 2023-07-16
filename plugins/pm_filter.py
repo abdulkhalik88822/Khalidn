@@ -37,7 +37,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 
 import os
-req_channel = int(os.environ.get('CRAZY_REQUEST','-1001915834318'))
+req_channel = int(os.environ.get('CRAZY_REQUEST','-1001959908694'))
 
 BUTTON = {}
 BUTTONS = {}

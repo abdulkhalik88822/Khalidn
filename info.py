@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '22968731'))
+API_HASH = environ.get('API_HASH', 'a5ca45b642f579481a244c836b164009')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6103363682:AAG95JO6f2SXTzZX1gsmutDNaoMOL9LK5hw")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -28,7 +28,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/0ef75275f7873e1f84
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5864846606').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001979888381').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '5864846606').split()]
@@ -49,10 +49,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'onlybotzcrezyk')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'OnePageLink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '78b56106966bf889dde7002dc2a100b0e9f5c677')
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'OnePageLink.in')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '78b56106966bf889dde7002dc2a100b0e9f5c677')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'paisakamalo.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '1d17334954c032131a737fd44f06bb2e1d3c2988')
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'paisakamalo.in')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '1d17334954c032131a737fd44f06bb2e1d3c2988')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")

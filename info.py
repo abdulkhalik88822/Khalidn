@@ -49,11 +49,11 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omnifly.in.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '16391e00aebfad25b243edf7e0034eea4fad7325')
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'omnifly.in.net')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '16391e00aebfad25b243edf7e0034eea4fad7325')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'OnePageLink.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '78b56106966bf889dde7002dc2a100b0e9f5c677')
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'OnePageLink.in')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '78b56106966bf889dde7002dc2a100b0e9f5c677')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', ))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
@@ -74,12 +74,12 @@ CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
-SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
+SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "False"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
-PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
+PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 LANGUAGES = ["malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan"]

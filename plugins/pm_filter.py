@@ -1612,7 +1612,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
         buttons = [[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('💭 ᴄᴏɴᴛᴀᴄᴛ​', url='t.me/CrezyDevelopers')
+            InlineKeyboardButton('💭 ᴄᴏɴᴛᴀᴄᴛ​', url='t.me/Attitude2688')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1665,7 +1665,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "english":
         buttons = [[
-            InlineKeyboardButton('🖤 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='t.me/+jE_Q8ixxipU1Zjdl')
+            InlineKeyboardButton('🖤 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/bots_up')
         ],[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ', callback_data='smrati'),
             InlineKeyboardButton('ᴄʟᴏsᴇ ⊝', callback_data='close_data')
@@ -1684,7 +1684,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "smrat":
         buttons = [[
-            InlineKeyboardButton('🖤 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='t.me/+jE_Q8ixxipU1Zjdl')
+            InlineKeyboardButton('🖤 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/bots_up')
         ],[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ', callback_data='smrati'),
             InlineKeyboardButton('ᴄʟᴏsᴇ ⊝', callback_data='close_data')
@@ -1781,7 +1781,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "shortlink_info":
             btn = [[
-                    InlineKeyboardButton('ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ', url='https://t.me/only_botz/50')
+                    InlineKeyboardButton('ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ', url='https://t.me/bots_up')
                 ],[
                     InlineKeyboardButton("⇍ ʙᴀᴄᴋ", callback_data="start"),
                     InlineKeyboardButton('ᴄʟᴏsᴇ ⊝', callback_data='close_data')

@@ -320,11 +320,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>YOU ARE NOT VERIFIED TODAY. PLEASE VERIFY AND GET UNLIMITED ACCESS FOR 12 hours.
-
-इस बोट को इस्तमाल करने के लिए आपको 12 घंटे में एक बार VERIFY करना होगा। VERIFY किए बिना आप मूवीज को डाउनलोड नहीं कर पाएंगें।
-
-\n👉How To Verify👈</b>",
+                    text="<b>YOU ARE NOT VERIFIED TODAY. PLEASE VERIFY AND GET UNLIMITED ACCESS FOR 12 hours इस बोट को इस्तमाल करने के लिए आपको 12 घंटे में एक बार VERIFY करना होगा। VERIFY किए बिना आप मूवीज को डाउनलोड नहीं कर पाएंगें। 👉How To Verify👈</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )

@@ -320,7 +320,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>YOU ARE NOT VERIFIED TODAY. PLEASE VERIFY AND GET UNLIMITED ACCESS FOR 12 hours इस बोट को इस्तमाल करने के लिए आपको 12 घंटे में एक बार VERIFY करना होगा। VERIFY किए बिना आप मूवीज को डाउनलोड नहीं कर पाएंगें। 👉How To Verify👈</b>",
+                    text="Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ Tᴏᴅᴀʏ. Pʟᴇᴀsᴇ Vᴇʀɪғʏ Aɴᴅ Gᴇᴛ Uɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss Fᴏʀ 24 hours.\n\nइस बोट को इस्तमाल करने के लिए आपको 24 घंटे में एक बार ᴠᴇʀɪғʏ करना होगा। Vᴇʀɪғʏ किए बिना आप मूवीज को डाउनलोड नहीं कर पाएंगें।\n\n<a href=https://t.me/bots_up/76>👉𝗛𝗼𝘄 𝗧𝗼 𝗩𝗲𝗿𝗶𝗳𝘆👈\n\n\n\n</a>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -379,7 +379,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to continue !</b>",
+                    text="Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ Tᴏᴅᴀʏ. Pʟᴇᴀsᴇ Vᴇʀɪғʏ Aɴᴅ Gᴇᴛ Uɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss Fᴏʀ 24 hours.\n\nइस बोट को इस्तमाल करने के लिए आपको 24 घंटे में एक बार ᴠᴇʀɪғʏ करना होगा। Vᴇʀɪғʏ किए बिना आप मूवीज को डाउनलोड नहीं कर पाएंगें।\n\n<a href=https://t.me/bots_up/76>👉𝗛𝗼𝘄 𝗧𝗼 𝗩𝗲𝗿𝗶𝗳𝘆👈\n\n\n\n</a>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -435,7 +435,7 @@ async def start(client, message):
             InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b>You are not verified !\nKindly verify to continue !</b>",
+            text="Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ Tᴏᴅᴀʏ. Pʟᴇᴀsᴇ Vᴇʀɪғʏ Aɴᴅ Gᴇᴛ Uɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss Fᴏʀ 24 hours.\n\nइस बोट को इस्तमाल करने के लिए आपको 24 घंटे में एक बार ᴠᴇʀɪғʏ करना होगा। Vᴇʀɪғʏ किए बिना आप मूवीज को डाउनलोड नहीं कर पाएंगें।\n\n<a href=https://t.me/bots_up/76>👉𝗛𝗼𝘄 𝗧𝗼 𝗩𝗲𝗿𝗶𝗳𝘆👈\n\n\n\n</a>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )

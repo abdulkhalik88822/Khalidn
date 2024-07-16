@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7222798899:AAEVatSVoxVzR1W8VtEf5boek7jl_yV
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/0ba8d62f12c1ea90a7832.jpg https://telegra.ph/file/64bff5d3a9c77474f026d.jpg https://telegra.ph/file/17b596e38eeadcd8ad93a.jpg https://telegra.ph/file/f68308029f2f9932ffb36.jpg https://telegra.ph/file/26088457e796f025f9b9e.jpg https://telegra.ph/file/1c3df48235fca73541d73.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/ae619c503d989336f94e8.jpg https://telegra.ph/file/bf938968ce2e2014d7e8d.jpg https://telegra.ph/file/f23864c918c75d1c7d902.jpg https://telegra.ph/file/de2144dc9c425156bd441.jpg https://telegra.ph/file/26088457e796f025f9b9e.jpg https://telegra.ph/file/1c3df48235fca73541d73.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/6f55d902f9bf2d0afd4bb.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
@@ -43,7 +43,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Ayushnegi23068:Ayushnegi23068@cluster0.mljcnxl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kailash:pass@cluster0.sqtztxm.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
